@@ -1,0 +1,9 @@
+data/
+outputs/
+*.pyc
+__pycache__/
+# Virtual environments
+venv/
+.venv/
+# Ignore all Jupyter notebooks
+*.ipynb
