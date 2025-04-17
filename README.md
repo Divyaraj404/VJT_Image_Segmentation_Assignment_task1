@@ -147,7 +147,7 @@ PY
 
 ## 8. License / Citation 🌟✨🚀
 
-COCO dataset © 2014 COCO Consortium, CC BY 4.0. Code in this repo released under MIT License. 🌟✨🚀
+COCO dataset © 2014 COCO Consortium, CC BY 4.0. 🌟✨🚀
 
 ---
 
