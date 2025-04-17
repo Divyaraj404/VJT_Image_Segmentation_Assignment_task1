@@ -8,17 +8,25 @@ Generate single‑channel 8‑bit PNG masks from COCO instance‑segmentation a
 
 ```
 coco_segmentation_task/
-├── src/
-│   ├── generate_masks.py      # main script
-│   └── utils.py               # helpers (optional)
-├── report/                    # final LaTeX/figures (Task 1 report)
-├── figures/                   # small example PNGs for the report
-├── pyproject.toml             # uv dependency & Python version
-├── uv.lock                    # locked dependency versions
-└── README.md                  # you are here
+├── src/                      # Python source
+│   ├── generate_masks.py
+│   └── utils.py
+├── data/                     # ⬇️ download from Google Drive
+│   ├── images/               # COCO jpgs
+│   └── annotations/          # COCO JSON
+├── outputs/                  # ⬇️ download from Google Drive
+│   └── masks/                # generated 8‑bit PNGs
+├── figures/                  # tiny example PNGs for report
+├── report/                   # LaTeX / PDF
+├── pyproject.toml            # uv deps
+├── uv.lock                   # locked versions
+└── README.md
 ```
 
-*Large files (raw COCO images, JSON, generated masks) are **not** tracked.* Place them in `data/` and `outputs/` as described below. 🌟✨🚀
+*Large files (raw COCO images, JSON, generated masks) are **not** tracked.*  
+👉 **Download ready‑made `data/` and `outputs/` folders from Google Drive and place them in the project root before running any code:**  
+<https://drive.google.com/drive/folders/1P41Eq1sV4aYf9GOJ7g_jOXYWOtsOvHdi?usp=sharing>  
+After extracting, the directory tree should match the structure above. 🌟✨🚀 🌟✨🚀
 
 ---
 
